@@ -1,0 +1,85 @@
+/* style.css */
+body.content-page {
+    background-color: #000;
+    color: #fff;
+}
+
+/* You might need to adjust link colors for visibility */
+a, a:visited {
+    color: #1DB954;
+}
+
+/* Adjust footer text color if necessary */
+footer {
+    color: #fff;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero video {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1DB954;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.product-details, .collaboration-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-img, .collaboration-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.collaboration-images img {
+    margin: 10px;
+    width: calc(33% - 20px);
+    display: inline-block;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
